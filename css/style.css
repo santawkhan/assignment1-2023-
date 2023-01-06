@@ -99,3 +99,101 @@ header {
     font-size: 25px;
     color: #737272;
 }
+
+.div {
+    background-image: url(/images/watch.png);
+    background-repeat: no-repeat;
+    width: 740px;
+    height: 200px;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top: 90px;
+}
+
+.mind {
+    padding-top: 50px;
+    font-weight: 700;
+    font-size: 40px;
+    color: #FFFFFF;
+    padding-left: 10px;
+}
+
+.btn-cll {
+    width: 100px;
+    height: 52px;
+    font-weight: 500;
+    font-size: 20px;
+    color: #005FAC;
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+    margin-left: 10px;
+    margin-top: 5px;
+
+
+}
+
+footer {
+    background-color: #151414;
+    width: 1600px;
+    height: 577px;
+    margin-top: 100px;
+}
+
+.last {
+    display: flex;
+
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+.future {
+    font-weight: 700;
+    font-size: 45px;
+    color: #F8F8F8;
+
+}
+
+.f-massage {
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+
+}
+
+.suscrb {
+    font-weight: 600;
+    font-size: 25px;
+    color: #FFFFFF;
+
+}
+
+.e {
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+
+}
+
+.f {
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.p {
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.sus {
+    width: 100px;
+    height: 52px;
+    color: #F8F8F8;
+    background-color: #005FAC;
+    border: none;
+    border-radius: 5px;
+    margin-top: 150px;
+
+}
