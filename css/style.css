@@ -4,7 +4,7 @@
 }
 
 header {
-    background-image: url(../images/banner/banner3.png);
+    background-image: url(/images/banner3.png);
     background-repeat: no-repeat;
     width: 1600px;
     height: 808px;
@@ -135,8 +135,7 @@ header {
 
 footer {
     background-color: #151414;
-    width: 1600px;
-    height: 577px;
+    background-size: cover;
     margin-top: 100px;
 }
 
@@ -165,6 +164,8 @@ footer {
     font-weight: 600;
     font-size: 25px;
     color: #FFFFFF;
+    margin-bottom: 25px;
+    margin-top: 15px;
 
 }
 
@@ -194,11 +195,11 @@ footer {
     background-color: #005FAC;
     border: none;
     border-radius: 5px;
-    margin-top: 150px;
+    margin-top: 40px;
 
 }
 
 .immage {
     display: flex;
-    gap: 10px;
+    gap: 20px;
 }
