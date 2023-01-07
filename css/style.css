@@ -6,9 +6,9 @@
 header {
     background-image: url(/images/banner3.png);
     background-repeat: no-repeat;
-    width: 1600px;
-    height: 808px;
+
     text-align: center;
+    background-size: cover;
 
 
 }
@@ -35,7 +35,7 @@ header {
 
 }
 
-.head-description .btn-style {
+.btn-style {
     width: 160px;
     height: 64px;
     background-color: #FFFFFF;
@@ -44,8 +44,12 @@ header {
     font-size: 20px;
     color: #005FAC;
     border: none;
-    margin-top: 20px;
+    margin-top: 30px;
     margin-left: 300px;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    margin-right: 40px;
+    padding: auto;
 }
 
 .main-topic {
@@ -101,13 +105,14 @@ header {
 }
 
 .div {
-    background-image: url(/images/watch.png);
+    background-image: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%), url(/images/watch.png);
     background-repeat: no-repeat;
     width: 740px;
     height: 200px;
     margin-left: 300px;
     margin-right: 300px;
     margin-top: 90px;
+    background-color: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%);
 }
 
 .mind {
@@ -202,4 +207,8 @@ footer {
 .immage {
     display: flex;
     gap: 20px;
+}
+
+.gradient-color {
+    background-color: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%);
 }
